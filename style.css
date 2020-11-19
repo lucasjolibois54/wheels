@@ -14,7 +14,7 @@ body{
 }
 
 #contactpage {
-    background-color: var(--body);
+    background-color: #FDFCFC;
 }
 
 
@@ -83,6 +83,9 @@ body{
 h1, h2, h3{
     margin: 0;
     padding: 1em 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+
 }
 
 p{
