@@ -64,7 +64,7 @@ body{
     width: 100%;
     height: auto;
 }
-.agent {
+.agentimg{
     height: 200px;
     z-index: -1;
     float: left;
