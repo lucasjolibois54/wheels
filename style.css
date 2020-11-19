@@ -58,12 +58,12 @@ body{
     background: #333333;
     color: #FDFCFC;
 }
- img{
-     display: block;
-     width: 100%;
-     height: auto;
- }
 
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .agent {
     height: 200px;
     z-index: -1;
