@@ -85,7 +85,29 @@ h1, h2, h3{
     padding: 1em 0;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
+    font-size: 30px;
+}
 
+h4 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FDFCFC;
+    font-size: 30px;
+    margin-top:-25px;
+    margin-bottom: 10px;
+}
+
+h6{
+    font-family: 'Assisant', sans-serif ;
+    font-weight: 100;
+    opacity: 30%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+    color: #272727;
 }
 
 p{
@@ -93,8 +115,18 @@ p{
     padding: 1em 0;
     font-family: 'Assistant', sans-serif;
     color: #272727;
+}
 
-
+.p1{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    color: #272727;
 }
 
 /*btn*/
@@ -210,7 +242,6 @@ input[type=text], select{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    margin-left: 5%;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
     background-color:#FDFCFC;
@@ -225,7 +256,6 @@ input[type=text], textarea{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    margin-left: 5%;
     font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
   }
