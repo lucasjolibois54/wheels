@@ -301,7 +301,7 @@ p{
     background-color: #004c5c;
 }
 /*til min liste (Udvalgt udstyr**/
-li{
+.mill{
     margin-top: 10px;
     margin-left: 10px;
     font-family: 'Assistant', sans-serif;
@@ -312,11 +312,12 @@ li{
 /*h2 overskrift men bare mindre*/
 #millas
 h2{
-    margin-top: 20px;
     margin-left: 10px;
-    font-family: 'Bebas Neue', cursive;
+    padding: 1em 0;
+    font-family: 'Bebas Neue', sans-serif;
     color: #272727;
-
+    font-size: 30px;
+    text-align: start
 
 }
 /* det er her under jeg styrer alt med mine knapper*/
