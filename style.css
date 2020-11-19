@@ -13,6 +13,10 @@ body{
     text-align: center;
 }
 
+#contactpage {
+    background-color: var(--body);
+}
+
 
 .wrapper {
     display: grid;
@@ -58,13 +62,17 @@ body{
     background: #333333;
     color: #FDFCFC;
 }
- img{
-     display: block;
-     width: 100%;
-     height: auto;
- }
 
+<<<<<<< HEAD
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 .agent {
+=======
+.agentimg {
+>>>>>>> 611b5ffb1e123ac7e953b6ae2ae521a8b3751639
     height: 200px;
     z-index: -1;
     float: left;
@@ -81,6 +89,10 @@ h1, h2, h3{
 p{
     margin: 0;
     padding: 1em 0;
+    font-family: 'Assistant', sans-serif;
+    color: #272727;
+
+
 }
 
 /*btn*/
@@ -182,7 +194,7 @@ p{
 
 /*SECTION BOX - CONTACT*/
 .box {
-    background-color: var(--nav);
+    background-color: #004C5C;
     padding-top: 50px;
     padding-bottom: 1px;
 }
@@ -197,9 +209,9 @@ input[type=text], select{
     margin-bottom: 16px;
     resize: vertical;
     margin-left: 5%;
-    font-family: var(--navfont);
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
-    background-color:var(--navtext);
+    background-color:#FDFCFC;
   }
 
 input[type=text], textarea{
@@ -212,7 +224,7 @@ input[type=text], textarea{
     margin-bottom: 16px;
     resize: vertical;
     margin-left: 5%;
-    font-family: var(--pfont);
+    font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
   }
 
@@ -222,7 +234,7 @@ input[type=text], textarea{
 
 .formularcontainer {
     border-radius: 8px;
-    background-color: var(--navtext);
+    background-color: #FDFCFC;
     padding: 5px;
 }
 
