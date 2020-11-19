@@ -28,8 +28,6 @@ body{
     background-color: #004C5C;
     padding: 10px 20px ;
     font-family: 'Bebas Neue', sans-serif;;
-
-
 }
 
 .main-nav ul {
@@ -63,16 +61,12 @@ body{
     color: #FDFCFC;
 }
 
-<<<<<<< HEAD
 .image{
     display: block;
     width: 100%;
     height: auto;
 }
 .agent {
-=======
-.agentimg {
->>>>>>> 611b5ffb1e123ac7e953b6ae2ae521a8b3751639
     height: 200px;
     z-index: -1;
     float: left;
