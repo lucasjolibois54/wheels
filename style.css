@@ -194,14 +194,22 @@ p{
 
 /*Section C*/
 #section-c {
-    padding: 2em 1em 2em;
+    padding: 1.5em 2em 2em;
+}
+
+#section-c .content-title{
+    color: #ececec;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
 }
 
 #section-c ul{
+
     list-style: none;
     text-decoration: none;
     margin: 0;
     padding: 0;
+    
 }
 #section-c ul a{
     list-style: none;
@@ -215,12 +223,50 @@ p{
     color: #333333;
 }
 
+/*Section D*/
+
 #section-d {
     background: #FDFCFC;
     color: #333333;
     padding: 2em;
     line-height: 1.2em;
     font-size: 0.9em;
+}
+
+.btn-tilmeld{
+
+        display: inline-block;
+        background: #5ED4CE;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 1em 2em;
+        border: 1px solid #666666;
+        margin: 0em 0;
+        margin-top: 0em;
+        border-radius: 20px;
+        border: none;
+        margin-top: 0px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 16px;
+    
+}
+
+#knap-social{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+}
+
+.center {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+  }
+
+.image-1{
+    width: auto;
+    height: 3em;
+    padding-left: 10px;
 }
 
 /*FAQ - sektion*/
@@ -572,6 +618,36 @@ margin-right: 10px;
         width: 24.99999%;
       }
       
+
+      @media(min-width: 700px){
+
+        #section-b .content-text p{
+            padding-top: 0;
+        }
+    
+        #section-c ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        #section-c li{
+            width: 47%;
+        }
+        .center {
+            margin: auto;
+            width: 15%;
+            padding: 10px;
+          }
+    }
+
+    @media(min-width: 1000px){
+        .center {
+            margin: auto;
+            width: 10%;
+            padding: 10px;
+          }
+        }
+
       @media only screen and (max-width: 700px) {
         #galleribilleder .responsive {
           width: 49.99999%;
@@ -591,5 +667,6 @@ margin-right: 10px;
         clear: both;
       }
     
+
     
 
