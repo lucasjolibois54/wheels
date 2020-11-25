@@ -220,13 +220,76 @@ p{
     font-size: 0.9em;
 }
 
-/*SECTION BOX - CONTACT*/
+/*FAQ - sektion*/
 .box {
     background-color: #004C5C;
     padding-top: 50px;
     padding-bottom: 1px;
 }
 
+/* Bokse der folder sig ud ved klik*/ 
+.accordion {
+    max-width: 350px;
+    margin-left: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: var(--navfont);
+    background-color: var(--body);
+    color: var(--textcolor);
+    font-size: 1.2em;
+}
+
+.accordion__label,
+.accordion__content {
+    padding: 15px 10px;
+}
+
+.accordion__label {
+    display: block;
+    color: var(--textcolor);
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+}
+
+/*Child element til label*/
+
+.accordion__label::after {
+    content:"";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%235ED4CE;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+
+.accordion__content {
+    background:#ececec;
+    line-height: 1.6;
+    font-size: 14px;
+    display: none;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.accordion__input {
+    display: none;
+}
+
+
+/*Indhold åbnes når der trykkes på boxen*/
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+
+}
+
+
+/*SECTION BOX - CONTACT*/
 input[type=text], select{
     width: 90%;
     padding: 12px;

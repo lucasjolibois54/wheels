@@ -34,33 +34,54 @@
             </section>
 
 
-    <!--SEKTION2 FAQ DROPDOWN - fungerer ikke optimalt-->
+            <!--SEKTION2 FAQ DROPDOWN-->
             <section class="box">
                 <h4>FAQ</h4>
-                <div class="FAQ-box">
-                            <select id="drop1" name="dropdown">
-                              <option value="box1">Hvad med forsikring?</option>
-                              <option value="svar">Hos TargetLeasing er forskring og service på din studiebil altid inkluderet i leasingaftalen. 
-                                  Du kan derfor køre trygt og sikkert uden bekymringer for uforudsete udgifter og værkstedsregninger!</option>
-                            </select>
-                            <select id="drop2" name="dropdown">
-                                <option value="box1">Hvordan opsiger jeg en aftale?</option>
-                                <option value="svar">Bindingsperioden hos TargetLeasing er på 3 måneder.
-                                    Herefter kan du opsige din aftale med 1 måneds varsel.
-                                    Køretøjet skal afleveres hos en af vores forhandlere, i samme stand som da du modtog bilen. </option>
-                              </select>
-                              <select id="drop3" name="dropdown">
-                                <option value="box1">Hvordan afhenter jeg bilen?</option>
-                                <option value="svar">Studiebilerne afhentes hos vores forhandlere som ligger rundt om i landet. 
-                                    Det vil ligeledes være her showrooms og prøveture af bilerne vil foregå. 
-                                    Aflevering af bilen skal ske hos den forhandler man har leaset bilen hos. </option>
-                              </select>
-                              <select id="drop4" name="dropdown">
-                                <option value="box1">Skal der lægges depositum?</option>
-                                <option value="svar">Vi kræver en startydelse (depositum) på 5000 kr ved leasing af vores studiebiler. 
-                                    Vi kvitterer med et OK tankkort som giver dig rabat på brændstof de første 3 måneder af leasingperioden. </option>
-                              </select>
+                <div class="accordion">
+                    <div>
+                        <input type="checkbox" name="FAQ_accordion" id="Q1" class="accordion__input">
+                        <label for="Q1" class="accordion__label">Hvad med forsikring?</label>
+                        <div class="accordion__content">
+                            <p>Hos TargetLeasing er forskring og service på din studiebil altid inkluderet i leasingaftalen. 
+                                Du kan derfor køre trygt og sikkert uden bekymringer for uforudsete udgifter og værkstedsregninger!</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="FAQ_accordion" id="Q2" class="accordion__input">
+                        <label for="Q2" class="accordion__label">Hvordan opsiger jeg en aftale?</label>
+                        <div class="accordion__content">
+                            <p>Bindingsperioden hos TargetLeasing er på 3 måneder.
+                                Herefter kan du opsige din aftale med 1 måneds varsel.
+                                Køretøjet skal afleveres hos en af vores forhandlere, i samme stand som da du modtog bilen.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="FAQ_accordion" id="Q3" class="accordion__input">
+                        <label for="Q3" class="accordion__label">Hvordan afhenter jeg bilen?</label>
+                        <div class="accordion__content">
+                            <p>Studiebilerne afhentes hos vores forhandlere som ligger rundt om i landet. 
+                                Det vil ligeledes være her showrooms og prøveture af bilerne vil foregå. 
+                                Aflevering af bilen skal ske hos den forhandler man har leaset bilen hos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" name="FAQ_accordion" id="Q4" class="accordion__input">
+                        <label for="Q4" class="accordion__label">Skal der lægges depositum?</label>
+                        <div class="accordion__content">
+                            <p>Vi kræver en startydelse (depositum) på 5000 kr ved leasing af vores studiebiler. 
+                                Vi kvitterer med et OK tankkort som giver dig rabat på brændstof de første 3 måneder af leasingperioden.
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
+
+  
                 <div class="btncontainer">
                     <a href="galleri.html" class="btn">Tutorials</a>
                 </div>
