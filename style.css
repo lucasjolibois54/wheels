@@ -135,6 +135,8 @@ p{
     border-radius: 20px;
     border: none;
     margin-top: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
 }
 
 .btncontainer {
@@ -239,11 +241,12 @@ p{
     background-color: #FDFCFC;
     color: #272727;
     font-size: 1.2em;
+    text-align: start;
 }
 
 .accordion__label,
 .accordion__content {
-    padding: 15px 10px;
+    padding: 20px 10px;
 }
 
 .accordion__label {
