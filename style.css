@@ -49,7 +49,7 @@ body{
     text-align: center;
     color: #FDFCFC;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 20px;
     box-shadow: #333333;
     justify-content: space-around;
 }
@@ -134,13 +134,14 @@ p{
     margin: 0.5em 0;
     border-radius: 20px;
     border: none;
+    margin-top: 15px;
 }
 
 .btncontainer {
     text-align: center;
     padding-top: 10px;
     margin-top: -10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -234,9 +235,9 @@ p{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     overflow: hidden;
-    font-family: var(--navfont);
-    background-color: var(--body);
-    color: var(--textcolor);
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #FDFCFC;
+    color: #272727;
     font-size: 1.2em;
 }
 
@@ -247,7 +248,7 @@ p{
 
 .accordion__label {
     display: block;
-    color: var(--textcolor);
+    color: #272727;
     cursor: pointer;
     position: relative;
     transition: background 0.1s;
@@ -271,9 +272,8 @@ p{
 .accordion__content {
     background:#ececec;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 16px;
     display: none;
-    padding-top: 30px;
     padding-bottom: 5px;
 }
 
@@ -311,7 +311,6 @@ input[type=text], textarea{
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px;
     resize: vertical;
     font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
