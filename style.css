@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');  
+
+/* CORE STYLE*/
+
+body{
+    margin: 0;
+    font-family: 'Assisant', sans-serif;
+    background: #004C5C;
+    color: #FDFCFC;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+#bodyOne {
+    background-color: #FDFCFC;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 100px;
+}
+
+/*Navigation*/
+.main-nav{
+    background-color: #004C5C;
+    padding: 10px 20px ;
+    font-family: 'Bebas Neue', sans-serif;;
+}
+
+.main-nav ul {
+    display: grid;
+    grid-gap: 2px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+.main-nav a{
+    background: #004C5C;
+    display: block;
+    text-decoration: none;
+    padding: 0.3rem;
+    text-align: center;
+    color: #FDFCFC;
+    text-transform: uppercase;
+    font-size: 20px;
+    box-shadow: #333333;
+    justify-content: space-around;
+}
+
+.main-nav a:hover{
+    background: #333333;
+    color: #FDFCFC;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.agentimg{
+    height: 200px;
+    z-index: -1;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -8px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2, h3{
+    margin: 0;
+    padding: 1em 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FDFCFC;
+    font-size: 30px;
+    margin-top:-25px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin: 0;
+    padding: 0.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 70px;
+    text-align: center;
+}
+
+h6{
+    font-family: 'Assisant', sans-serif ;
+    font-weight: 100;
+    opacity: 30%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+    color: #272727;
+}
+
+.p54{
+    padding: 1em 0;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    color: #272727;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    padding: 1em 0;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    color: #272727;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p1{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    color: #272727;
+}
+
+.p2{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    color: #272727;
+}
+
+/*btn*/
+.btn{
+    display: inline-block;
+    background: #5ED4CE;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666666;
+    margin: 0.5em 0;
+    border-radius: 20px;
+    border: none;
+    margin-top: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+}
+
+.btncontainer {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+#råd-btn{
+    background: #004C5C;
+}
+
+/*SECTION A*/
+
+#section-a{
+    min-height: auto;
+    color: #FDFCFC;
+    text-align: center;
+}
+
+
+#videoBG {
+    height: auto;
+    width: 100%;
+}
+#section-a .bg-image{
+    position: absolute;
+    /*background-image: url("#);*/
+    /*background-color: #333333;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    /* z-index: -1;
+    opacity: 0.4;*/
+    }
+
+/*Section B*/
+
+#section-b{
+ /*   background: #245452;
+    color: #FDFCFC;*/
+    padding: 2em;
+    line-height: 1.2em;
+    background: #FDFCFC;
+    color: #333333;
+}
+
+#section-b .content-wrap{
+    padding: 0 1.5em;
+}
+
+/*Section C*/
+#section-c {
+    padding: 1.5em 2em 2em;
+}
+
+#section-c .content-title{
+    color: #ececec;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
+#section-c ul{
+
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#section-c ul a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-c li{
+    margin-bottom: 1em;
+    background: #ffffff;
+    color: #333333;
+}
+
+/*Section D*/
+
+#section-d {
+    background: #FDFCFC;
+    color: #333333;
+    padding: 2em;
+    line-height: 1.2em;
+    font-size: 0.9em;
+}
+
+.btn-tilmeld{
+
+        display: inline-block;
+        background: #5ED4CE;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 1em 2em;
+        border: 1px solid #666666;
+        margin: 0em 0;
+        margin-top: 0em;
+        border-radius: 20px;
+        border: none;
+        margin-top: 0px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 16px;
+}
+
+#knap-social{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+}
+
+.center {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+  }
+
+.image-1{
+    width: auto;
+    height: 3em;
+    padding-left: 10px;
+}
+
+/*FAQ - sektion*/
+.box {
+    background-color: #004C5C;
+    padding-top: 50px;
+    padding-bottom: 1px;
+}
+
+/* Bokse der folder sig ud ved klik*/ 
+.accordion {
+    max-width: 350px;
+    margin-left: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #FDFCFC;
+    color: #272727;
+    font-size: 1.2em;
+    text-align: start;
+}
+
+.accordion__label,
+.accordion__content {
+    padding: 20px 10px;
+}
+
+.accordion__label {
+    display: block;
+    color: #272727;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+}
+
+/*Child element til label*/
+
+.accordion__label::after {
+    content:"";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%235ED4CE;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+
+.accordion__content {
+    background:#ececec;
+    line-height: 1.6;
+    font-size: 16px;
+    display: none;
+    padding-bottom: 5px;
+}
+
+.accordion__input {
+    display: none;
+}
+
+/*Indhold åbnes når der trykkes på boxen*/
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+
+}
+
+/*SECTION BOX - CONTACT*/
+input[type=text], select{
+    width: 90%;
+    padding: 12px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    background-color:#FDFCFC;
+  }
+
+input[type=text], textarea{
+    width: 90%;
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+    font-family:'Assisant', sans-serif;
+    background-color: rgba(211, 211, 211, 0.37);
+  }
+
+/* SECTION FORMULAR*/
+
+.formularcontainer {
+    border-radius: 8px;
+    background-color: #FDFCFC;
+    padding: 5px;
+}
+
+#leasing{
+    background-color: #FDFCFC;
+}
+
+#millas
+  h1{
+   
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/*det her styrer det første billede*/
+
+.car{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+}
+
+/*boxed er til den box bag billedet*/
+.boxed1{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 250px;
+    background-color: #004c5c;
+}
+/*til min liste (Udvalgt udstyr**/
+.mill{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Assistant', sans-serif;
+    color: #272727;
+    text-align: start;
+
+}
+/*h2 overskrift men bare mindre*/
+#millas
+h2{
+    margin-left: 10px;
+    padding: 1em 0;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 30px;
+    text-align: start
+
+}
+/* det er her under jeg styrer alt med mine knapper*/
+.container1{
+    text-align: center;
+    margin-top: 25px;
+}
+/* btn 1 er den øverste knap, btn 2 er knappen nede til venstre, det går igen med btn 4,5,6*/
+.btn1{
+border: 1px solid #5ed4ce;
+background: #5ed4ce;
+padding: 10px 30px;
+border-radius: 8px;
+color: white;
+margin-bottom: 10px ;
+margin-right: 10px;
+}
+.container2{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.btn2{
+    border: 1px solid #5ed4ce;
+    background: #5ed4ce;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    width: 100px;
+}
+
+.btn3{
+    border: 1px solid #5ed4ce;
+    background: #004c5c;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    right: 70px;
+}
+.boxed2{   
+    border: 1px solid black;
+    background-color: #004c5c;
+    height: 214px;
+}
+/*mit andet billede*/
+.png{
+    position: relative;
+    right: 30px;
+    bottom: 60px;
+    width: 106%;
+}
+
+.container3{
+    text-align: center;
+    margin-top: 25px;
+}
+.btn4{
+border: 1px solid #5ed4ce;
+background: #5ed4ce;
+padding: 10px 30px;
+border-radius: 8px;
+color: white;
+margin-bottom: 10px ;
+margin-right: 10px;
+
+}
+.container4{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.btn5{
+    border: 1px solid #5ed4ce;
+    background: #5ed4ce;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    width: 100px;
+
+}
+
+.btn6{
+    border: 1px solid #5ed4ce;
+    background: #004c5c;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    right: 70px;
+
+}
+
+
+/*FOOTER*/
+
+#main-footer{
+    padding: 2em;
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'bebas neue', sans-serif;
+}
+
+#main-footer a{
+    color: #5ED4CE;
+    text-decoration: none;
+}
+
+#main-footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-footer ul a{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#main-footer img{
+    align-items: center;
+    height: auto;
+    width: 200px;
+
+}
+
+
+#foot{
+    display: grid;
+    grid-gap: 4px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr  1fr 1fr ; 
+}
+
+#foot .trust-foot img{
+    height: auto;
+    width: 5em;
+}
+
+#copy{
+    font-size: 0.7em;
+    line-height: 2em;
+
+}
+
+#merde{
+    font-size: 1rem;
+    float: right;
+}
+
+    #galleribilleder div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+    #galleribilleder div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+    #galleribilleder div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+    #galleribilleder div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      #galleribilleder.responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+
+      @media(min-width: 700px){
+
+        #section-b .content-text p{
+            padding-top: 0;
+        }
+    
+        #section-c ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        #section-c li{
+            width: 47%;
+        }
+        .center {
+            margin: auto;
+            width: 15%;
+            padding: 10px;
+          }
+    }
+
+    @media(min-width: 1000px){
+        .center {
+            margin: auto;
+            width: 10%;
+            padding: 10px;
+          }
+        }
+
+      @media only screen and (max-width: 700px) {
+        #galleribilleder .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        #galleribilleder .responsive {
+          width: 100%;
+        }
+      }
+
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+
+    
+
