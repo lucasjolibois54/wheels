@@ -73,7 +73,16 @@ body{
     margin-top: -8px;
 }
 
-h1, h2, h3{
+h1 {
+    margin: 0;
+    padding: 0.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2, h3{
     margin: 0;
     padding: 1em 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -109,6 +118,7 @@ p{
     padding: 1em 0;
     font-family: 'Assistant', sans-serif;
     color: #272727;
+    font-size: 16;
 }
 
 .p1{
@@ -120,6 +130,19 @@ p{
     margin-left: 15px;
     margin-top: -20px;
     padding-bottom: 20px;
+    color: #272727;
+}
+
+.p2{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    font-size: 40px;
     color: #272727;
 }
 
@@ -587,9 +610,6 @@ margin-right: 10px;
     float: right;
 }
 
-
-
-
     #galleribilleder div.gallery {
         border: 1px solid #ccc;
       }
@@ -657,6 +677,12 @@ margin-right: 10px;
       
       @media only screen and (max-width: 500px) {
         #galleribilleder .responsive {
+          width: 100%;
+        }
+      }
+
+      @media only screen and (max-width: 960px) {
+        .p2 {
           width: 100%;
         }
       }
