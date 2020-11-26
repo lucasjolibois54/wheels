@@ -100,6 +100,15 @@ h4 {
     margin-bottom: 10px;
 }
 
+h5 {
+    margin: 0;
+    padding: 0.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 70px;
+    text-align: center;
+}
+
 h6{
     font-family: 'Assisant', sans-serif ;
     font-weight: 100;
@@ -368,13 +377,11 @@ p {
     display: none;
 }
 
-
 /*Indhold åbnes når der trykkes på boxen*/
 .accordion__input:checked ~ .accordion__content {
     display: block;
 
 }
-
 
 /*SECTION BOX - CONTACT*/
 input[type=text], select{
@@ -402,8 +409,6 @@ input[type=text], textarea{
     font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
   }
-
-
 
 /* SECTION FORMULAR*/
 
