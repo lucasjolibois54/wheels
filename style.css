@@ -624,38 +624,6 @@ margin-right: 10px;
     float: right;
 }
 
-<<<<<<< HEAD
-    #galleribilleder div.gallery {
-        border: 1px solid #ccc;
-      }
-      
-    #galleribilleder div.gallery:hover {
-        border: 1px solid #777;
-      }
-      
-    #galleribilleder div.gallery img {
-        width: 100%;
-        height: auto;
-      }
-      
-    #galleribilleder div.desc {
-        padding: 15px;
-        text-align: center;
-      }
-      
-      * {
-        box-sizing: border-box;
-      }
-      
-      #galleribilleder.responsive {
-        padding: 0 6px;
-        float: left;
-        width: 24.99999%;
-      }
-=======
-
-
-
 
  div.gallery {
   border: 0px solid #ccc;
@@ -704,8 +672,7 @@ div.desc {
 
 
  
->>>>>>> Galleri
-      
+ 
 
       @media(min-width: 700px){
 
@@ -735,31 +702,4 @@ div.desc {
             padding: 10px;
           }
         }
-
-<<<<<<< HEAD
-      @media only screen and (max-width: 700px) {
-        #galleribilleder .responsive {
-          width: 49.99999%;
-          margin: 6px 0;
-        }
-      }
-      
-      @media only screen and (max-width: 500px) {
-        #galleribilleder .responsive {
-          width: 100%;
-        }
-      }
-
-      
-      .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-    
-=======
-     
->>>>>>> Galleri
-
-    
 
