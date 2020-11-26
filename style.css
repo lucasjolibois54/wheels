@@ -8,9 +8,9 @@ body{
     font-family: 'Assisant', sans-serif;
     background: #004C5C;
     color: #FDFCFC;
-    font-size: 16px;
+    font-size: 1.1em;
     line-height: 1.5em;
-    text-align: start;
+    text-align: center;
 }
 
 #bodyOne {
@@ -23,9 +23,6 @@ body{
     grid-gap: 100px;
 }
 
-.sidebar {
-    display: none;
-}
 
 /*Navigation*/
 .main-nav{
@@ -74,11 +71,11 @@ body{
     float: left;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 4px;
+    margin-top: -8px;
 }
 
 h1 {
-    margin: 10px;
+    margin: 0;
     padding: 0.5em;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
@@ -86,7 +83,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2, h3{
     margin: 0;
     padding: 1em 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -95,20 +92,6 @@ h2 {
     text-align: center;
 }
 
-h3{
-    font-family: 'Assistant', sans-serif;
-    font-weight: 100;
-    opacity: 30%;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    padding-bottom: 30px;
-    margin-top: -30px;
-    color: #272727;
-}
-
-
 h4 {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
@@ -116,15 +99,6 @@ h4 {
     font-size: 30px;
     margin-top:-25px;
     margin-bottom: 10px;
-}
-
-h5 {
-    margin: 0;
-    padding: 0.5em;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #272727;
-    font-size: 30px;
-    text-align: center;
 }
 
 h6{
@@ -252,7 +226,6 @@ p {
     line-height: 1.2em;
     background: #FDFCFC;
     color: #333333;
-    text-align: center;
 }
 
 #section-b .content-wrap{
@@ -411,7 +384,6 @@ input[type=text], select{
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-left: 15px;
     resize: vertical;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
@@ -425,7 +397,6 @@ input[type=text], textarea{
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-left: 15px;
     resize: vertical;
     font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
@@ -449,7 +420,6 @@ input[type=text], textarea{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
-
 
 /*det her styrer det første billede*/
 
@@ -641,57 +611,50 @@ margin-right: 10px;
     float: right;
 }
 
+    #galleribilleder div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+    #galleribilleder div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+    #galleribilleder div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+    #galleribilleder div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      #galleribilleder.responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
+ @media(min-width: 700px){
 
- div.gallery {
-  border: 0px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 5px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 10px 6px;
-  float: left;
-  width: 24.99999%;
-  background-color: #004C5C;
-  padding-top: 10px;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 0px 0;
-  }
-}
-
-
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
- 
- 
-
-      @media(min-width: 700px){
+    .btn{
+        display: inline-block;
+        background: #5ED4CE;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 1em 2.8em;
+        border: 1px solid #666666;
+        margin: 0.5em 0;
+        border-radius: 20px;
+        border: none;
+        margin-top: 15px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 20px;
+    }
 
         #section-b .content-text p{
             padding-top: 0;
@@ -710,6 +673,212 @@ div.desc {
             width: 15%;
             padding: 10px;
           }
+
+
+        .wrapper-One {
+        display: flex;
+        position: relative;
+    }
+
+        .wrapper-One .sidebar {
+        width: 800px;
+        background-color: #06687c80; 
+        padding: 50px 0px;
+        margin-left: -20px;
+    }
+
+
+.wrapper-One .sidebar ul li{
+    padding: 15px 0;
+    color: #272727;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: #004c5c;
+    margin-left:  8px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    list-style: none;
+    color: #FDFCFC;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fdfcfc;
+}
+
+.ps {
+    font-family: 'Assisant', sans-serif 100;
+    color: #272727;
+    padding-left: 10px;
+    background-color: #FDFCFC;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    margin-top: 20px
+
+}
+
+h4 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.inner-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Assisant', sans-serif;
+    font-weight: 100;
+    margin-top: -20px;
+}
+
+
+.agentimg {
+        height: 400px;
+        float: left;
+        margin-left: 5%;
+        margin-right: 20px;
+        margin-top: -8px;
+    
+    }
+
+    .p1 {
+        font-size: 20px;
+        line-height: 2em;
+        padding: 20px
+    }
+
+    p {
+        font-size: 20px;
+    }
+    
+    .box {
+        margin-top: 30px;
+    
+    }
+
+    .accordion {
+        max-width: 1000px;
+        margin-left: 5%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: 'bebas neue', sans-serif;
+        background-color: #FDFCFC;
+        color: #227722;
+        font-size: 1.2em;
+    }
+
+
+.accordion__label,
+.accordion__content {
+    padding: 30px 10px;
+}
+
+.accordion__label {
+    display: block;
+    color: #272727;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+    border-bottom: 5px solid #004C5C;
+    font-size: 25px;
+}
+
+/*Child element til label*/
+
+.accordion__label::after {
+    content:"";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%235ED4CE;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+
+
+.accordion__content {
+    background:#ececec;
+    line-height: 1.6;
+    font-size: 14px;
+    display: none;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #004c5c;
+}
+
+.accordion__input {
+    display: none;
+}
+
+
+/*Indhold åbnes når der trykkes på boxen*/
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+
+}
+
+input[type=text], select{
+    width: 90%;
+    padding: 12px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'bebas neue', sans-serif;
+    font-size: 20px;
+    background-color:#272727;
+  }
+
+
+input[type=text], textarea{
+    width: 90%;
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: var(--pfont);
+    background-color: rgba(211, 211, 211, 0.37);
+    font-size: 20px;
+  }
+
+  .formularcontainer {
+      border-radius: 8px;
+      background-color: var(--navtext);
+      padding: 5px;
+      margin: 30px;
+  }
+
+
+  .main-nav a {
+      font-size: 30px;
+  }
+    
     }
 
     @media(min-width: 1000px){
@@ -719,4 +888,27 @@ div.desc {
             padding: 10px;
           }
         }
+
+      @media only screen and (max-width: 700px) {
+        #galleribilleder .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        #galleribilleder .responsive {
+          width: 100%;
+        }
+      }
+
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+
+    
 
