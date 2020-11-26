@@ -113,7 +113,7 @@ h6{
     color: #272727;
 }
 
-p{
+.p54{
     padding: 1em 0;
     font-family: 'Assistant', sans-serif;
     font-weight: 100;
@@ -412,7 +412,7 @@ input[type=text], textarea{
     font-family: 'Bebas Neue', cursive;
 }
 
-}
+
 /*det her styrer det første billede*/
 
 .car{
