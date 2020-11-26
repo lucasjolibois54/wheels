@@ -23,6 +23,10 @@ body{
     grid-gap: 100px;
 }
 
+.sidebar {
+    display: none;
+}
+
 /*Navigation*/
 .main-nav{
     background-color: #004C5C;
