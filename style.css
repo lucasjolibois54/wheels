@@ -74,7 +74,16 @@ body{
     margin-top: -8px;
 }
 
-h1, h2, h3{
+h1 {
+    margin: 0;
+    padding: 0.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2, h3{
     margin: 0;
     padding: 1em 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -119,7 +128,13 @@ h6{
 p {
     padding: 1em 0;
     font-family: 'Assistant', sans-serif;
+    font-weight: 100;
     color: #272727;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .p1{
@@ -129,8 +144,22 @@ p {
     line-height: 1.5em;
     font-size: 15px;
     margin-left: 15px;
+    margin-right: 10px;
     margin-top: -20px;
     padding-bottom: 20px;
+    color: #272727;
+}
+
+.p2{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
     color: #272727;
 }
 
@@ -259,7 +288,6 @@ p {
         margin-top: 0px;
         font-family: 'Bebas Neue', sans-serif;
         font-size: 16px;
-    
 }
 
 #knap-social{
@@ -374,8 +402,6 @@ input[type=text], textarea{
     background-color: rgba(211, 211, 211, 0.37);
   }
 
-
-
 /* SECTION FORMULAR*/
 
 .formularcontainer {
@@ -391,18 +417,19 @@ input[type=text], textarea{
 #millas
   h1{
    
+    text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
-p{
-    text-align: start;
-    font-family: 'Assistant', sans-serif;
-    color: #272727;
 
-
-
-}
 /*det her styrer det første billede*/
 
+.car{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 40%;
+}
 
 /*boxed er til den box bag billedet*/
 .boxed1{
@@ -410,17 +437,6 @@ p{
     border: 1px solid black;
     height: 250px;
     background-color: #004c5c;
-    width: 385x;
-    height: auto;
-}
-#car{
-    position: relative;
-    right: 30px;
-    width: 95%;
-    margin-left: 40px;
-    margin-top: 10px;
-
-
 }
 /*til min liste (Udvalgt udstyr**/
 .mill{
@@ -434,23 +450,17 @@ p{
 /*h2 overskrift men bare mindre*/
 #millas
 h2{
-    margin-left: 20px;
+    margin-left: 10px;
     padding: 1em 0;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
     font-size: 30px;
     text-align: start
-    
-     
-}
-#ulmillas{
-    font-family: 'Assistant', sans-serif;
-    text-align: start;
-    color: #272727;
+
 }
 /* det er her under jeg styrer alt med mine knapper*/
 .container1{
-    text-align: start;
+    text-align: center;
     margin-top: 25px;
 }
 /* btn 1 er den øverste knap, btn 2 er knappen nede til venstre, det går igen med btn 4,5,6*/
@@ -459,10 +469,9 @@ border: 1px solid #5ed4ce;
 background: #5ed4ce;
 padding: 10px 30px;
 border-radius: 8px;
-color: #FDFCFC;
+color: white;
 margin-bottom: 10px ;
 margin-right: 10px;
-width: 375px;
 }
 .container2{
     text-align: center;
@@ -470,14 +479,24 @@ width: 375px;
 }
 .btn2{
     border: 1px solid #5ed4ce;
+    background: #5ed4ce;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    width: 100px;
+}
+
+.btn3{
+    border: 1px solid #5ed4ce;
     background: #004c5c;
     padding: 10px 30px;
     border-radius: 8px;
-    color: #FDFCFC;
-    width: 375px;
-
+    color: white;
+    position: absolute;
+    right: 70px;
 }
-
 .boxed2{   
     border: 1px solid black;
     background-color: #004c5c;
@@ -486,12 +505,9 @@ width: 375px;
 /*mit andet billede*/
 .png{
     position: relative;
-    margin-left: 65px;
-    right: 100px;
+    right: 30px;
     bottom: 60px;
-    width: 108%;
-    margin-top: 10px;
-
+    width: 106%;
 }
 
 .container3{
@@ -503,188 +519,36 @@ border: 1px solid #5ed4ce;
 background: #5ed4ce;
 padding: 10px 30px;
 border-radius: 8px;
-color: #FDFCFC;
+color: white;
 margin-bottom: 10px ;
 margin-right: 10px;
-width: 375px;
+
 }
 .container4{
     text-align: center;
     margin-bottom: 60px;
-    margin-right: 380px;
 }
 .btn5{
-    border: 1px solid #004c5c;
+    border: 1px solid #5ed4ce;
+    background: #5ed4ce;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    width: 100px;
+
+}
+
+.btn6{
+    border: 1px solid #5ed4ce;
     background: #004c5c;
     padding: 10px 30px;
     border-radius: 8px;
-    color: #FDFCFC;
+    color: white;
     position: absolute;
-    width: 375px;
+    right: 70px;
 
-}
-
-
-@media screen and (min-width: 700px) {
-
-    #millas
-    h1{
-   
-        text-align: center;
-        font-family: 'Bebas Neue', cursive;
-    
-      }
-p{
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    color: #272727;
-
-
-}
-/*det her styrer det første billede*/
-
-#car{
-    margin-top: 30px;
-    width: 600px;
-    height: 350px;
-    float: left;
-    margin-left: 40px;
-}
-
-/*boxed er til den box bag billedet*/
-.boxed1{
-    border: 1px solid black;
-    height: 420px;
-    background-color: #004c5c;
-}
-#ulmillas{
-    text-align: right;
-    position: relative;
-    bottom: 400px; 
-    color: #FDFCFC;
-    margin-right: 50px;
-}
-/*til min liste (Udvalgt udstyr**/
-.mill{
-    margin-top: 10px;
-    margin-left: 10px;
-    font-family: 'Assistant', sans-serif;
-    color: #272727;
-    text-align: start;
-
-}
-/*h2 overskrift men bare mindre*/
-#millas
-h2{
-    position: relative;
-    bottom: 400px;
-    margin-left: 10px;
-    padding: 1em 0;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #272727;
-    font-size: 30px;
-    text-align: right;
-    color: #FDFCFC;
-    margin-right: 50px;
-
-}
-/* det er her under jeg styrer alt med mine knapper*/
-.container1{
-position: relative;
-top: -300px;
-margin-left: 730px;
-}
-/* btn 1 er den øverste knap, btn 2 er knappen nede til venstre, det går igen med btn 4,5,6*/
-.btn1
-{    
-        display: inline-block;
-        background: #5ED4CE;
-        color: #ffffff;
-        text-decoration: none;
-        padding: 1em 2.8em;
-        border: 1px solid #666666;
-        margin: 0.5em 0;
-        border-radius: 20px;
-        border: none;
-        margin-top: 15px;
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 20px;
-    
-
-
-}
-.container2{
-    
-    margin-left: -680px;
-    margin-top: -385px;
-    
-}
-.btn2{
-        display: inline-block;
-        background: #004c5c; 
-        color: #ffffff;
-        text-decoration: none;
-        padding: 1em 2.8em;
-        border: 1px solid #666666;
-        margin: 0.5em 0;
-        border-radius: 20px;
-        border: none;
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 20px;
-
-}
-
-.boxed2{   
-    border: 1px solid black;
-    background-color: #004c5c;
-    height: 414px;
-}
-/*mit andet billede*/
-.png{
-    width:700px;
-    height: auto;
-    float: left;
-    margin-left: 40px;
-    margin-top: -10px;
-    
-}
-
-.container3{
-    margin-bottom: 15px;
-    margin-top: -185px;
-    margin-left: 350px;
-}
-.btn4{
-    display: inline-block;
-    background: #5ED4CE; 
-    color: #ffffff;
-    text-decoration: none;
-    padding: 1em 2.8em;
-    border: 1px solid #666666;
-    margin: 0.5em 0;
-    border-radius: 20px;
-    border: none;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
-
-}
-.container4 {
-    margin-left: -630px;
-    margin-bottom: 200px;
-    margin-top: -100px;
-}
-.btn5{
-    display: inline-block;
-    background: #004c5c; 
-    color: #ffffff;
-    text-decoration: none;
-    padding: 1em 2.8em;
-    border: 1px solid #666666;
-    margin: 0.5em 0;
-    border-radius: 20px;
-    border: none;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 20px;
 }
 
 
@@ -747,11 +611,301 @@ margin-left: 730px;
     float: right;
 }
 
+   
+ @media(min-width: 700px){
 
-
-      .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
+    .btn{
+        display: inline-block;
+        background: #5ED4CE;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 1em 2.8em;
+        border: 1px solid #666666;
+        margin: 0.5em 0;
+        border-radius: 20px;
+        border: none;
+        margin-top: 15px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 20px;
     }
+
+        #section-b .content-text p{
+            padding-top: 0;
+        }
+    
+        #section-c ul{
+            display: flex;
+            justify-content: space-around;
+        }
+    
+        #section-c li{
+            width: 47%;
+        }
+        .center {
+            margin: auto;
+            width: 15%;
+            padding: 10px;
+          }
+
+
+        .wrapper-One {
+        display: flex;
+        position: relative;
+    }
+
+        .wrapper-One .sidebar {
+        width: 800px;
+        background-color: #06687c80; 
+        padding: 50px 0px;
+        margin-left: -20px;
+    }
+
+
+.wrapper-One .sidebar ul li{
+    padding: 15px 0;
+    color: #272727;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    background-color: #004c5c;
+    margin-left:  8px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    list-style: none;
+    color: #FDFCFC;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #fdfcfc;
+}
+
+.ps {
+    font-family: 'Assisant', sans-serif 100;
+    color: #272727;
+    padding-left: 10px;
+    background-color: #FDFCFC;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 50px;
+    margin-top: 20px
+
+}
+
+h4 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.inner-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Assisant', sans-serif;
+    font-weight: 100;
+    margin-top: -20px;
+}
+
+
+.agentimg {
+        height: 400px;
+        float: left;
+        margin-left: 5%;
+        margin-right: 20px;
+        margin-top: -8px;
+    
+    }
+
+    .p1 {
+        font-size: 20px;
+        line-height: 2em;
+        padding: 20px
+    }
+
+    p {
+        font-size: 20px;
+    }
+    
+    .box {
+        margin-top: 30px;
+    
+    }
+
+    .accordion {
+        max-width: 1000px;
+        margin-left: 5%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: 'bebas neue', sans-serif;
+        background-color: #FDFCFC;
+        color: #227722;
+        font-size: 1.2em;
+    }
+
+
+.accordion__label,
+.accordion__content {
+    padding: 30px 10px;
+}
+
+.accordion__label {
+    display: block;
+    color: #272727;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+    border-bottom: 5px solid #004C5C;
+    font-size: 25px;
+}
+
+/*Child element til label*/
+
+.accordion__label::after {
+    content:"";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 6px;
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%235ED4CE;" /></svg>');
+    background-size: contain;
+    transition: transform 0.4s;
+}
+
+
+.accordion__content {
+    background:#ececec;
+    line-height: 1.6;
+    font-size: 14px;
+    display: none;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #004c5c;
+}
+
+.accordion__input {
+    display: none;
+}
+
+
+/*Indhold åbnes når der trykkes på boxen*/
+.accordion__input:checked ~ .accordion__content {
+    display: block;
+
+}
+
+input[type=text], select{
+    width: 90%;
+    padding: 12px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'bebas neue', sans-serif;
+    font-size: 20px;
+    background-color:#272727;
+  }
+
+
+input[type=text], textarea{
+    width: 90%;
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: var(--pfont);
+    background-color: rgba(211, 211, 211, 0.37);
+    font-size: 20px;
+  }
+
+  .formularcontainer {
+      border-radius: 8px;
+      background-color: var(--navtext);
+      padding: 5px;
+      margin: 30px;
+  }
+
+
+  .main-nav a {
+      font-size: 30px;
+  }
+    
+    }
+
+    @media(min-width: 1000px){
+        .center {
+            margin: auto;
+            width: 10%;
+            padding: 10px;
+          }
+        }
+
+   
+        div.gallery {
+            border: 0px solid #ccc;
+          }
+          
+          div.gallery:hover {
+            border: 5px solid #777;
+          }
+          
+          div.gallery img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+          
+          * {
+            box-sizing: border-box;
+          }
+          
+          .responsive {
+            padding: 10px 10px;
+            float: left;
+            width: 24.99999%;
+            background-color: #004C5C;
+          }
+          
+          @media only screen and (max-width: 700px) {
+            .responsive {
+              width: 49.99999%;
+            }
+          }
+          
+
+          
+          .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+    
+
+    
+
