@@ -625,9 +625,6 @@ margin-right: 10px;
 }
 
 
-
-
-
  div.gallery {
   border: 0px solid #ccc;
 }
@@ -675,7 +672,7 @@ div.desc {
 
 
  
-      
+ 
 
       @media(min-width: 700px){
 
@@ -705,8 +702,4 @@ div.desc {
             padding: 10px;
           }
         }
-
-     
-
-    
 
