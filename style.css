@@ -78,7 +78,7 @@ h1 {
     padding: 0.5em;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
-    font-size: 100px;
+    font-size: 70px;
     text-align: center;
 }
 
@@ -273,7 +273,6 @@ h6{
         margin-top: 0px;
         font-family: 'Bebas Neue', sans-serif;
         font-size: 16px;
-    
 }
 
 #knap-social{
@@ -477,7 +476,6 @@ margin-right: 10px;
     position: absolute;
     left: 70px;
     width: 100px;
-
 }
 
 .btn3{
@@ -488,7 +486,6 @@ margin-right: 10px;
     color: white;
     position: absolute;
     right: 70px;
-
 }
 .boxed2{   
     border: 1px solid black;
@@ -501,7 +498,6 @@ margin-right: 10px;
     right: 30px;
     bottom: 60px;
     width: 106%;
-
 }
 
 .container3{
@@ -586,9 +582,7 @@ margin-right: 10px;
     grid-gap: 4px;
     padding: 0;
     list-style: none;
-    grid-template-columns: 1fr  1fr 1fr ;
-
-    
+    grid-template-columns: 1fr  1fr 1fr ; 
 }
 
 #foot .trust-foot img{
