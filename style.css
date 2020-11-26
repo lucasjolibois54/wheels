@@ -624,6 +624,7 @@ margin-right: 10px;
     float: right;
 }
 
+<<<<<<< HEAD
     #galleribilleder div.gallery {
         border: 1px solid #ccc;
       }
@@ -651,6 +652,59 @@ margin-right: 10px;
         float: left;
         width: 24.99999%;
       }
+=======
+
+
+
+
+ div.gallery {
+  border: 0px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 5px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 10px 6px;
+  float: left;
+  width: 24.99999%;
+  background-color: #004C5C;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 0px 0;
+  }
+}
+
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+ 
+>>>>>>> Galleri
       
 
       @media(min-width: 700px){
@@ -682,6 +736,7 @@ margin-right: 10px;
           }
         }
 
+<<<<<<< HEAD
       @media only screen and (max-width: 700px) {
         #galleribilleder .responsive {
           width: 49.99999%;
@@ -702,6 +757,9 @@ margin-right: 10px;
         clear: both;
       }
     
+=======
+     
+>>>>>>> Galleri
 
     
 
