@@ -78,7 +78,7 @@ h1 {
     padding: 0.5em;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
-    font-size: 70px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -113,7 +113,7 @@ h6{
     color: #272727;
 }
 
-p{
+.p54{
     padding: 1em 0;
     font-family: 'Assistant', sans-serif;
     font-weight: 100;
@@ -121,6 +121,18 @@ p{
     text-align: start;
     line-height: 1.5em;
     font-size: 16px;
+    margin-left: 20px;
+}
+
+p {
+    padding: 1em 0;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    color: #272727;
+    text-align: start;
+    line-height: 1.5em;
+    font-size: 16px;
+    margin-left: 20px;
 }
 
 .p1{
@@ -130,6 +142,7 @@ p{
     line-height: 1.5em;
     font-size: 15px;
     margin-left: 15px;
+    margin-right: 20px;
     margin-top: -20px;
     padding-bottom: 20px;
     color: #272727;
@@ -406,7 +419,7 @@ input[type=text], textarea{
     font-family: 'Bebas Neue', cursive;
 }
 
-}
+
 /*det her styrer det første billede*/
 
 .car{
