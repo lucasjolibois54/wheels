@@ -105,11 +105,13 @@ h6{
 }
 
 p{
-    margin: 0;
     padding: 1em 0;
     font-family: 'Assistant', sans-serif;
+    font-weight: 100;
     color: #272727;
     text-align: start;
+    line-height: 1.5em;
+    font-size: 16px;
 }
 
 .p1{
@@ -385,13 +387,7 @@ input[type=text], textarea{
    
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-
 }
-p{
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    color: #272727;
-
 
 }
 /*det her styrer det første billede*/
@@ -535,6 +531,7 @@ margin-right: 10px;
     background: #333333;
     color: #ffffff;
     text-align: center;
+    font-family: 'bebas neue', sans-serif;
 }
 
 #main-footer a{
