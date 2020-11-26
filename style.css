@@ -74,11 +74,11 @@ body{
     float: left;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: -8px;
+    margin-top: 4px;
 }
 
 h1 {
-    margin: 0;
+    margin: 10px;
     padding: 0.5em;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
@@ -86,7 +86,7 @@ h1 {
     text-align: center;
 }
 
-h2, h3{
+h2 {
     margin: 0;
     padding: 1em 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -94,6 +94,20 @@ h2, h3{
     font-size: 30px;
     text-align: center;
 }
+
+h3{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 100;
+    opacity: 30%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+    color: #272727;
+}
+
 
 h4 {
     text-align: center;
@@ -396,6 +410,7 @@ input[type=text], select{
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
+    margin-left: 15px;
     resize: vertical;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
@@ -409,6 +424,7 @@ input[type=text], textarea{
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
+    margin-left: 15px;
     resize: vertical;
     font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
