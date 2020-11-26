@@ -8,9 +8,9 @@ body{
     font-family: 'Assisant', sans-serif;
     background: #004C5C;
     color: #FDFCFC;
-    font-size: 1.1em;
+    font-size: 16px;
     line-height: 1.5em;
-    text-align: center;
+    text-align: start;
 }
 
 #bodyOne {
@@ -105,7 +105,7 @@ h5 {
     padding: 0.5em;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
-    font-size: 70px;
+    font-size: 30px;
     text-align: center;
 }
 
