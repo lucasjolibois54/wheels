@@ -100,6 +100,15 @@ h4 {
     margin-bottom: 10px;
 }
 
+h5 {
+    margin: 0;
+    padding: 0.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #272727;
+    font-size: 70px;
+    text-align: center;
+}
+
 h6{
     font-family: 'Assisant', sans-serif ;
     font-weight: 100;
@@ -682,7 +691,7 @@ margin-right: 10px;
       }
 
       @media only screen and (max-width: 960px) {
-        .p2 {
+        .Indhold {
           width: 100%;
         }
       }
