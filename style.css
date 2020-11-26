@@ -130,7 +130,7 @@ h6{
     text-align: start;
     line-height: 1.5em;
     font-size: 16px;
-    margin-left: 20px;
+    margin: 0;
 }
 
 p {
@@ -142,6 +142,7 @@ p {
     line-height: 1.5em;
     font-size: 16px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .p1{
@@ -151,7 +152,7 @@ p {
     line-height: 1.5em;
     font-size: 15px;
     margin-left: 15px;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: -20px;
     padding-bottom: 20px;
     color: #272727;
@@ -163,10 +164,10 @@ p {
     text-align: start;
     line-height: 1.5em;
     font-size: 15px;
-    margin-left: 470px;
-    margin-right: 470px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-bottom: 20px;
-    font-size: 40px;
+    font-size: 15px;
     color: #272727;
 }
 
@@ -690,11 +691,6 @@ margin-right: 10px;
         }
       }
 
-      @media only screen and (max-width: 960px) {
-        .Indhold {
-          width: 100%;
-        }
-      }
       
       .clearfix:after {
         content: "";
