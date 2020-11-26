@@ -8,9 +8,9 @@ body{
     font-family: 'Assisant', sans-serif;
     background: #004C5C;
     color: #FDFCFC;
-    font-size: 16px;
+    font-size: 1.1em;
     line-height: 1.5em;
-    text-align: start;
+    text-align: center;
 }
 
 #bodyOne {
@@ -21,10 +21,6 @@ body{
 .wrapper {
     display: grid;
     grid-gap: 100px;
-}
-
-.sidebar {
-    display: none;
 }
 
 /*Navigation*/
@@ -74,11 +70,11 @@ body{
     float: left;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 4px;
+    margin-top: -8px;
 }
 
 h1 {
-    margin: 10px;
+    margin: 0;
     padding: 0.5em;
     font-family: 'Bebas Neue', sans-serif;
     color: #272727;
@@ -86,7 +82,7 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2, h3{
     margin: 0;
     padding: 1em 0;
     font-family: 'Bebas Neue', sans-serif;
@@ -95,20 +91,6 @@ h2 {
     text-align: center;
 }
 
-h3{
-    font-family: 'Assistant', sans-serif;
-    font-weight: 100;
-    opacity: 30%;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    padding-bottom: 30px;
-    margin-top: -30px;
-    color: #272727;
-}
-
-
 h4 {
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
@@ -116,15 +98,6 @@ h4 {
     font-size: 30px;
     margin-top:-25px;
     margin-bottom: 10px;
-}
-
-h5 {
-    margin: 0;
-    padding: 0.5em;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #272727;
-    font-size: 30px;
-    text-align: center;
 }
 
 h6{
@@ -252,7 +225,6 @@ p {
     line-height: 1.2em;
     background: #FDFCFC;
     color: #333333;
-    text-align: center;
 }
 
 #section-b .content-wrap{
@@ -411,7 +383,6 @@ input[type=text], select{
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    margin-left: 15px;
     resize: vertical;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
@@ -425,7 +396,6 @@ input[type=text], textarea{
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-left: 15px;
     resize: vertical;
     font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
@@ -449,7 +419,6 @@ input[type=text], textarea{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
-
 
 /*det her styrer det første billede*/
 
@@ -641,55 +610,34 @@ margin-right: 10px;
     float: right;
 }
 
-
- div.gallery {
-  border: 0px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 5px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 10px 6px;
-  float: left;
-  width: 24.99999%;
-  background-color: #004C5C;
-  padding-top: 10px;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 0px 0;
-  }
-}
-
-
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
- 
- 
+    #galleribilleder div.gallery {
+        border: 1px solid #ccc;
+      }
+      
+    #galleribilleder div.gallery:hover {
+        border: 1px solid #777;
+      }
+      
+    #galleribilleder div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+      
+    #galleribilleder div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      #galleribilleder.responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      
 
       @media(min-width: 700px){
 
@@ -719,4 +667,27 @@ div.desc {
             padding: 10px;
           }
         }
+
+      @media only screen and (max-width: 700px) {
+        #galleribilleder .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        #galleribilleder .responsive {
+          width: 100%;
+        }
+      }
+
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+
+    
 
