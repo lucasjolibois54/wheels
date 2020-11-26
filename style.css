@@ -141,8 +141,8 @@ p{
     text-align: start;
     line-height: 1.5em;
     font-size: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 470px;
+    margin-right: 470px;
     padding-bottom: 20px;
     font-size: 40px;
     color: #272727;
@@ -354,13 +354,11 @@ p{
     display: none;
 }
 
-
 /*Indhold åbnes når der trykkes på boxen*/
 .accordion__input:checked ~ .accordion__content {
     display: block;
 
 }
-
 
 /*SECTION BOX - CONTACT*/
 input[type=text], select{
@@ -388,8 +386,6 @@ input[type=text], textarea{
     font-family:'Assisant', sans-serif;
     background-color: rgba(211, 211, 211, 0.37);
   }
-
-
 
 /* SECTION FORMULAR*/
 
